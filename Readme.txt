@@ -7,7 +7,7 @@ cd client && npm i && npm run build
 
 After last operation completion, get back inside Rentify folder
 
-npm start
+npm i && npm start
 
 -----------
 
