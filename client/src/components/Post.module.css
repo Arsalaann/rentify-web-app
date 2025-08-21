@@ -1,0 +1,225 @@
+.posted-property-not-show-details-container,.posted-property-show-details-container{
+    width:100%;
+    background: rgb(220, 220, 220);
+    display: flex;
+    border-radius: 0 10px 10px 0;
+    color:rgb(49, 49, 49);
+    gap:1%;
+    margin-bottom:0.5%;
+    border:1px solid grey;
+}
+
+.posted-property-show-details-container{
+    display: grid;
+    border-radius: 0 0 10px 10px;
+    padding-bottom:3%;
+    margin-bottom:2%;
+    background:silver;
+    border:none;
+}
+
+
+
+
+
+
+.post-interested-btn-container,.post-showless-btn-container,.post-delete-btn-container{
+    display:flex;
+    justify-content: end;
+    width: 100%;
+    align-items: end;
+}
+
+.post-interested-btn{
+    background-color: #c2fbd7;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    font-weight: bold;
+    color:green;
+    border-radius:5px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    padding:0 10px;
+    height:40px;
+    border:1px solid green;
+}
+
+
+.post-interested-btn:hover{
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+}
+
+.post-showless-btn,.post-delete-btn{
+    background:rgb(56, 56, 56);
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    font-weight: bold;
+    color:white;
+    border-radius:5px;
+    padding:0 50px;
+    margin-right: 1%;
+    height:40px;
+}
+
+.post-delete-btn{
+    background-color: rgb(170, 26, 26);
+}
+
+
+
+
+
+
+
+
+.post-address-container{
+    display:flex;
+}
+
+.user-Details{
+    display:flex;
+}
+
+.price{
+    text-align:center;
+    font-weight:bolder;
+    font-size: 28px;
+    width:100%;
+}
+
+
+
+.post-details-container{
+    display: grid;
+    padding: 1%;
+    width: 100%;
+    letter-spacing:1px;
+    font-weight: bold;
+}
+
+.desc{
+    text-align:center;
+    font-weight: normal;
+    font-size:12px;
+    
+    color:rgb(75, 75, 75);
+}
+
+
+
+
+
+
+.post-likes-container{
+    display: flex;
+    justify-content: end;
+    align-items:start;
+}
+.likes{
+    display:flex;
+    align-items: center;
+    font-size: 16px;
+    gap:4px;
+}
+.like-icon{
+    color:grey;
+    border-radius: 0;
+    font-size: 25px;
+    cursor:pointer;
+}
+
+.myposts-like-icon{
+    color:grey;
+    border-radius: 0;
+    font-size: 25px;
+    cursor:normal;
+}
+
+.is-liked{
+    color:crimson;
+}
+
+
+
+
+
+
+
+
+.user-details-container{
+    display:grid;
+    width:100%;
+    margin:auto;
+}
+
+.user-details-titles,.user-details-values{
+    display:flex;
+    border-radius: 0;
+    justify-content: space-around;
+    width:100%;
+    color:white;
+}
+
+.user-details-values{
+    color:rgb(48, 48, 48);
+}
+
+.user-details-titles span{
+    background-color: rgb(189, 124, 51);
+    text-align: center;
+    padding:1%;
+    width:100%;
+    border-radius:0;
+}
+
+.user-details-values div{
+    background-color: rgb(255, 252, 252);
+    text-align: center;
+    padding:1%;
+    width:100%;
+    border-radius:0;
+}
+
+.user-details-title-email{
+    border-left:1px solid white;
+    border-right:1px solid white;
+}
+
+.user-details-value-email{
+    border-left:1px solid rgb(116, 116, 116);
+    border-right:1px solid rgb(116, 116, 116);
+}
+
+
+
+
+
+
+.property-metadata{
+    display:grid;
+    gap:15px;
+    color:rgb(66, 66, 66);
+    font-size: 14px;
+}
+
+
+
+
+.image-container-not-show-details{
+    background-image: url('./dummyImage.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 350px; 
+    border-radius:0;
+}
+
+.image-container-show-details{
+    background-image: url('./dummyImage.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 550px; 
+    border-radius:0;
+}

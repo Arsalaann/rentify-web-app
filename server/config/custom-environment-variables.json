@@ -1,0 +1,8 @@
+{
+	"mail":{
+		"MAIL_PASSWORD":"RENTIFY_MAIL_PASSWORD"
+	},
+	"database":{
+		"DATABASE_PASSWORD":"RENTIFY_DATABASE_PASSWORD"
+	}
+}

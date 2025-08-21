@@ -1,0 +1,54 @@
+
+.app-container{
+  display:grid;
+  gap:1%;
+}
+
+.authenticate-form-container {
+  position: absolute;
+  width: 100%;
+  height:100%;
+}
+.authenticate-form-background{
+  width:100%;
+  height:100vmax;
+  background:rgb(255, 255, 255);
+  position:absolute;
+  opacity: 0.8;
+  border-radius: 0;
+  overflow:hidden;
+}
+
+
+.posts-container{
+  padding-bottom:2%;
+  width:80%;
+  margin:1% auto;
+}
+
+.post-properties{
+  display:grid;
+}
+
+/*
+@media not|only mediatype and (mediafeature and|or|not mediafeature) {
+  CSS-Code;
+}
+meaning of the not, only and and keywords:
+
+not: The not keyword inverts the meaning of an entire media query.
+
+only: The only keyword prevents older browsers that do not support media queries 
+with media features from applying the specified styles. It has no effect on modern browsers.
+
+and: The and keyword combines a media feature with a media type or other media features.
+
+They are all optional. However, if you use not or only, you must also specify a media type.
+
+*/
+
+@media screen and (max-width:400px){
+  .posts-container{
+      width:100%;
+  }
+}

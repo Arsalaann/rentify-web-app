@@ -1,0 +1,92 @@
+.filter-btn{
+    background:rgba(85, 85, 85, 0.836);
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    border-radius:5px;
+    box-shadow: 0px 0px 2px 0 grey;
+    margin-bottom: 3px;
+    width: 100px;
+    height: 30px;
+}
+
+.filter-form {
+    display: flex;
+    width:100%;
+    margin:0.3% auto;
+    background-color: rgb(138, 138, 138);
+    color:white;
+    justify-content: space-between;
+    align-items:center;
+    border-radius:0;
+    padding:0 1%;
+    gap:2%;
+    border:1px solid grey;
+}
+
+.filter-input-container{
+    display: flex;
+    justify-items: center;
+    gap:4%;
+}
+
+.filter-input-container input{
+    border-radius:0;
+    width:100%;
+    height:30px;
+}
+
+.filter-input-container span{
+    font-size: 2vh;
+	width:100%;
+	text-align:right;
+	padding-top:7px;
+	letter-spacing:1px;
+}
+
+.apply-filter-btn-container{
+    width:20%;
+    display:flex;
+    justify-content:end;
+    align-items:center;
+}
+
+.apply-filter-btn{
+    background:rgba(31, 31, 31, 0.836);
+    letter-spacing: 1px;
+    font-size: 2vh;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    box-shadow: 0px 0px 2px 0 rgb(192, 192, 192);
+    width:100%;
+    height:30px;
+    border-radius:0;
+}
+
+.cross-icon{
+    color:rgb(255, 255, 255);
+    border-radius: 0;
+    font-size: 20px;
+    align-self:center;
+}
+
+@media screen and (max-width:300px){
+	.filter-form{
+		justify-content:start;
+	}
+	.filter-input-container input{
+		width:15px;
+		font-size:10px;
+	}
+	.filter-input-container span{
+		font-size:10px;
+		letter-spacing:0;
+	}
+	.apply-filter-btn{
+    	letter-spacing: 0;
+    	font-size: 10px;
+    	width:100%;
+    	height:27px;
+	}
+}

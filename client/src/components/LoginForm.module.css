@@ -1,0 +1,90 @@
+.login-form{
+    display:grid;
+    gap:20px;
+    position: absolute;
+    width:50%;
+    margin:5% 25%;
+    background: rgb(165, 108, 42);
+    padding:3%;
+    padding-top:1%;
+    color:white;
+}
+
+.login-email{
+    display:grid;
+    gap:5px;
+}
+
+.login-password{
+    display:grid;
+    gap:5px;
+}
+
+.login-btn-container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.login-btn{
+    background:grey;
+    width:40%;
+    height: 40px;
+    font-size:100%;
+    letter-spacing: 3px;
+    font-weight: bold;
+    border:2px solid white;
+    color:white;
+}
+
+.signup-link{
+    text-decoration:underline;
+    color:aqua;
+}
+
+.signup-link-suggestion{
+    font-size:14px;
+}
+
+.login-error{
+    color:rgb(226, 226, 226);
+    text-align: center;
+    font-size: 15px;
+
+}
+
+input{
+    height:35px;
+    color:grey;
+    width:100%;
+}
+
+label{
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.login-heading{
+    text-align:center;
+    font-size: 30px;
+}
+
+.company-mark{
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.cross-icon{
+    margin:0 100%;
+    font-size:13px;
+}
+
+@media screen and (max-width:400px){
+    .login-form{
+        width:100%;
+        margin:0;
+        padding:8%;
+        height:100vh;
+        border-radius:0;
+    }
+}

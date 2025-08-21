@@ -1,0 +1,90 @@
+.signup-form{
+    display:grid;
+    gap:15px;
+    position: absolute;
+    width:50%;
+    margin:2px 25%;
+    background: rgb(165, 108, 42);
+    padding:3%;
+    padding-top:1%; 
+    color:white;
+}
+
+.signup-error{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.signup-btn-container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.signup-btn{
+    background:grey;
+    width:40%;
+    height: 40px;
+    font-size:90%;
+    letter-spacing: 3px;
+    font-weight: bold;
+    border:2px solid white;
+    color:white;
+}
+
+.signup-error{
+    color:rgb(226, 226, 226);
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.signup-heading{
+    text-align:center;
+    font-size: 30px;
+}
+
+.signup-email,.signup-password,.signup-name,.signup-lastname,.signup-mobile{
+    display:grid;
+    gap:5px;
+}
+
+.company-mark{
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.signup-rules{
+    color:rgb(226, 226, 226);
+    font-size: 12px;
+}
+
+input{
+    height:35px;
+    color:grey;
+}
+
+label{
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.cross-icon{
+    margin:0 100%;
+    font-size:13px;
+}
+
+@media screen and (max-width:400px){
+    .signup-form{
+        width:100%;
+        margin:0;
+        border-radius: 0;
+        padding:2% 6%;
+    }
+    .signup-rules{
+    	font-size:10px;
+    }
+    
+}
