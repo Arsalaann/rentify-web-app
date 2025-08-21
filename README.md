@@ -13,16 +13,12 @@ Follow these steps to run the project locally:
 3. **Install and build the client:**
 
 
-cd client
-npm install
-npm run build
+cd client  && npm install && npm run build
 
 
 Go back to the Rentify folder and install server dependencies:
 
-cd ..
-npm install
-npm start
+cd .. && npm install && npm start
 
 
 Wait until you see:
